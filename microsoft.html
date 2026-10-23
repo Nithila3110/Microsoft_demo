@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Microsoft</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #1a1a1a;
+        }
+        .navbar {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            padding: 0 65px;
+            gap: 25px;
+            border-bottom: 1px solid #eee;
+        }
+        img{
+            height :25px;
+            width : 25px;
+            
+        }
+
+        
+        .nav-links {
+            display: flex;
+            gap: 25px;
+            font-size: 14px;
+        }
+
+        .nav-right {
+            margin-left: auto;
+            display: flex;
+            gap: 25px;
+            font-size: 14px;
+        }
+
+        
+
+        .hero {
+            width: 100%;
+            height: 500px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .hero-content {
+            position: absolute;
+            left: 90px;
+            top: 100px;
+            width: 450px;
+        }
+
+        .hero-content h1 {
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .blue-button {
+            background-color: #0067b8;
+            color: white;
+            border: none;
+            padding: 14px 25px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+
+        .quick-links {
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+            padding: 45px;
+        }
+
+        .quick {
+            text-align: center;
+            width: 120px;
+        }
+
+        .quick-icon {
+            font-size: 35px;
+            color: #0067b8;
+        }
+
+        .quick p {
+            color: #0067b8;
+            font-weight: bold;
+        }
+
+
+
+        .products {
+            display: flex;
+            gap: 25px;
+            padding: 20px 65px 60px;
+        }
+
+        .product {
+            width: 25%;
+        }
+
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product h2 {
+            font-size: 25px;
+        }
+
+        .product p {
+            line-height: 1.5;
+        }
+
+        .learn {
+            color: #0067b8;
+            font-weight: bold;
+        }
+
+        .blue-section {
+            margin: 20px 65px 60px;
+            height: 350px;
+            position: relative;
+            overflow: hidden;
+            background-color: #f2f2f2;
+        }
+
+        .blue-section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .blue-content {
+            position: absolute;
+            left: 60px;
+            top: 80px;
+            width: 400px;
+        }
+
+        .blue-content h2 {
+            font-size: 35px;
+        }
+
+
+        footer {
+            background-color: #f2f2f2;
+            padding: 40px 65px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        footer h3 {
+            font-size: 15px;
+        }
+
+        footer p {
+            font-size: 13px;
+            color: #555;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <div class="navbar">
+        <img src = "microsoftlogo.png">
+
+        <h2 style ="color:grey;">Microsoft</h2>
+        <div class="nav-links">
+
+            <span>Microsoft 365</span>
+            <span>Teams</span>
+            <span>Windows</span>
+            <span>Surface</span>
+            <span>Xbox</span>
+            <span>Support</span>
+
+        </div>
+
+
+        <div class="nav-right">
+
+            <span>All Microsoft</span>
+            <span>Search 🔍</span>
+            <span>Cart 🛒</span>
+            <span>Sign in</span>
+
+        </div>
+
+    </div>
+
+
+    <section class="hero">
+
+        <img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931">
+
+        <div class="hero-content">
+
+            <h1>Microsoft 365</h1>
+
+            <p>
+                Premium Office apps, extra cloud storage,
+                advanced security and more — all in one plan.
+            </p>
+
+            <button class="blue-button">
+                LEARN MORE
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <div class="quick-links">
+
+        <div class="quick">
+
+            <div class="quick-icon">▣</div>
+
+            <p>Choose your Microsoft 365</p>
+
+        </div>
+
+
+        <div class="quick">
+
+            <div class="quick-icon">▣</div>
+
+            <p>Shop Surface devices</p>
+
+        </div>
+
+
+        <div class="quick">
+
+            <div class="quick-icon">▣</div>
+
+            <p>Explore Windows</p>
+
+        </div>
+
+
+        <div class="quick">
+
+            <div class="quick-icon">▣</div>
+
+            <p>Shop Xbox</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="products">
+
+
+        <div class="product">
+
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853">
+
+            <h2>Surface</h2>
+
+            <p>
+                Powerful laptops and devices designed
+                for work, creativity and everyday life.
+            </p>
+
+            <div class="learn">
+                SHOP SURFACE →
+            </div>
+
+        </div>
+
+
+        <div class="product">
+
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3">
+
+            <h2>Microsoft 365</h2>
+
+            <p>
+                Create, collaborate and get things done
+                with powerful productivity apps.
+            </p>
+
+            <div class="learn">
+                FOR YOUR BUSINESS →
+            </div>
+
+        </div>
+
+
+        <div class="product">
+
+            <img src="https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf">
+
+            <h2>Windows 11</h2>
+
+            <p>
+                A new Windows experience designed
+                to bring you closer to what matters.
+            </p>
+
+            <div class="learn">
+                LEARN MORE →
+            </div>
+
+        </div>
+
+
+        <div class="product">
+
+            <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437d1">
+
+            <h2>Xbox</h2>
+
+            <p>
+                Discover games, consoles and
+                entertainment for everyone.
+            </p>
+
+            <div class="learn">
+                EXPLORE XBOX →
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="blue-section">
+
+        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b">
+
+        <div class="blue-content">
+
+            <h2>Microsoft Cloud</h2>
+
+            <p>
+                Build, deploy and manage applications
+                with powerful cloud technology.
+            </p>
+
+            <button class="blue-button">
+                DISCOVER MORE
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+
+        <div>
+
+            <h3>What's new</h3>
+
+            <p>Microsoft 365</p>
+            <p>Surface Pro</p>
+            <p>Windows 11</p>
+
+        </div>
+
+
+        <div>
+
+            <h3>Microsoft Store</h3>
+
+            <p>Account</p>
+            <p>Returns</p>
+            <p>Order tracking</p>
+
+        </div>
+
+
+        <div>
+
+            <h3>Education</h3>
+
+            <p>Microsoft Education</p>
+            <p>Devices for education</p>
+            <p>Office for students</p>
+
+        </div>
+
+
+        <div>
+
+            <h3>Company</h3>
+
+            <p>Careers</p>
+            <p>About Microsoft</p>
+            <p>Privacy</p>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
